@@ -25,7 +25,7 @@ $(document).on('click', '.movie', function() {
     var buttons = $(this).html(); 
  
 
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + buttons + "&api_key=dc6zaTOxFJmzC&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + buttons + "&api_key=HKx00p4iQANwRWlOVQfqR9v6bsn6V2Rc&limit=10";
     // console.log(queryURL);
 
     // Creating an AJAX call for the specific movie button being clicked
